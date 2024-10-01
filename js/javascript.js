@@ -5,7 +5,7 @@ let sizeButton = document.querySelector(".size-button");
 let clearButton = document.querySelector(".clear-button");
 
 sizeButton.addEventListener("click", () => {
-    let x = prompt("Enter grid size:");
+    let x = prompt("Enter brush size up to 100, bigger number = smaller brush!:");
     gridSize(x);
 });
 
